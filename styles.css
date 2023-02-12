@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+}
+
+
+
+/* display: flex;
+  flex-direction: ;
+  justify-content: ;
+  align-items: ;  */
