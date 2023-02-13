@@ -1,46 +1,58 @@
-html {
-    background-color: #3B0663;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #fafafa;
-}
+/* colors and fonts:
+dark-background-color (hero & footer: #1F2937
+Hero main text ("This website is awesome"): 48px extra-bold #F9FAF8
+Hero secondary text, header link text: 18px #E5E7EB
+Header logo text: 24px #F9FAF8
+Button color, call to action background color: #3882F6
+Information header text: 36px extra-bold #1F2937
+Quote section background color: #E5E7EB
+Quote text: 36px light italic #1F2937
+*/
 
-.navbar {
-    display: flex;
-    align-items: center;
+header, footer {
+    background-color: #1F2937;
 }
 
 .logo {
-    margin-right: auto;
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
-.links {
-    display: flex;
-    list-style: none;
-    padding: 8px;
+.nav-links, .intro {
+    font-size: 18px; 
+    color: #E5E7EB;
 }
 
-li {
-  font-size: 20px;
-  font-weight: 800;
-  padding: 20px;
+.title {
+    font-size: 48px; 
+    font-weight: extra-bold; 
+    color: #F9FAF8;
 }
 
-#logo {
-    max-width: 100px;
-    height: auto;
-    margin-right: auto;
+button {
+  background-color: #3882F6;
 }
 
-.heading {
-    font-size: 40px;
+.info-header {
+  font-size: 36px; 
+  font-weight: extra-bold; 
+  color: #1F2937;
 }
 
-.intro {
-    font-size: 20px;
-    font-weight: 300;
-    color: #ECDFF6;
+.quote-box {
+    background-color: #E5E7EB;
 }
 
-.section-1 {
-    display: flex;
+.quote {
+    font-size: 36px; 
+    font-weight: light; 
+    color: #1F2937;
+    font-style: italic;
 }
+
+.CTA {
+    background-color: #3882F6;
+}
+
+
+
