@@ -9,13 +9,32 @@ Quote section background color: #E5E7EB
 Quote text: 36px light italic #1F2937
 */
 
+html {
+  font-family: roboto, sans-serif;
+}
+
 header, footer {
     background-color: #1F2937;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+}
+
+li {
+  list-style: none;
+  padding: 8px;
 }
 
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+  margin-left: 20px;
 }
 
 .nav-links, .intro {
@@ -31,6 +50,23 @@ header, footer {
 
 button {
   background-color: #3882F6;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  
+}
+
+.hero-image {
+}
+
+.image-1 {
+  max-width: 250px;
+  max-height: auto;
 }
 
 .info-header {
