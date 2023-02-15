@@ -11,84 +11,8 @@ Quote text: 36px light italic #1F2937
 
 html {
   font-family: roboto, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-
-header, footer {
-    background-color: #1F2937;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links {
-}
-
-li {
-  list-style: none;
-  padding: 8px;
-}
-
-.logo {
-  font-size: 24px;
-  color: #F9FAF8;
-  margin-left: 20px;
-}
-
-.nav-links, .intro {
-    font-size: 18px; 
-    color: #E5E7EB;
-}
-
-.title {
-    font-size: 48px; 
-    font-weight: extra-bold; 
-    color: #F9FAF8;
-}
-
-button {
-  background-color: #3882F6;
-}
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 20px;
-  
-}
-
-.hero-image {
-}
-
-.image-1 {
-  max-width: 250px;
-  max-height: auto;
-}
-
-.info-header {
-  font-size: 36px; 
-  font-weight: extra-bold; 
-  color: #1F2937;
-}
-
-.quote-box {
-    background-color: #E5E7EB;
-}
-
-.quote {
-    font-size: 36px; 
-    font-weight: light; 
-    color: #1F2937;
-    font-style: italic;
-}
-
-.CTA {
-    background-color: #3882F6;
-}
-
 
 
